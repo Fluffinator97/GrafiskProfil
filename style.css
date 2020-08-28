@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'ebrima';
+    src: url('fonts/ebrima.ttf');
+}
+
+@font-face {
+    font-family: 'javanese';
+    src: url('fonts/javatext.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: #FBAF40;
+    text-decoration: none;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'ebrima', Fallback, sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'ebrima', Fallback, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: auto;
+    background-color: #87C540;
+    padding: 0 0 0 100px;
+    text-align: center;
+}
+
+.imgbox {
+    height: 90px;
+    width: auto;
+    object-fit: fill;
+    margin-top: 5px;
+    margin: 0;
+}
+
+.menuitems {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.menuitem { 
+    margin-left:50px;
+    align-items: center;
+}
+
+.intro {
+    height: 800px;
+    width: 100%;
+    background-image: url(Bilder/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.introtitle{
+    padding: 50px 0 0 0;
+    font-size: 29pt;
+}
+
+.introsubtitle{
+    margin: 20px 200px 0 200px;
+    font-size: 18pt;
+}
+
+.searchbar {
+    margin: 50px 0 0 0 ;
+    font-size: 90px;
+    height: 100px;
+    width: 820px;
+}
+
+.productcontainer {
+}
+
+.subtitles {
+    margin-left: 100px;
+    color: #FBAF40;
+    font-family: 'ebrima';
+    padding: 5px 0 0 0;
+}
+
+.prod1 {
+    height: 500px;
+    width: 45%;
+    background-image: url(Bilder/ChibiCthulu.jpg);
+    background-repeat: no-repeat;
+    background-size: fit;
+    text-align: center;
+}
+
+.prod2 {
+    height: 500px;
+    width: 45%;
+    background-image: url(Bilder/ChibiNyarlothotep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.readmore {
+    height: 65px;
+    width: 190px;
+    align-items: center;
+    margin-top: 400px;
+    background-color: #fbaf40;
+    font-family: 'ebrima';
+}
+
+.prodheader {
+    background-color: #0da0c1;
+    width: auto;
+    height: 50px;
+}
+
+.prodcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info {
+    height: 600px;
+    width: auto;
+}
+
+.infoheader {
+    height: 50px;
+    width: auto;
+    background-color: #0da0c1;
+}
+
+.infocontainer {
+
+}
+
+.infotext {
+    margin: 0 100px 0 100px;
+    height: 300px;
+    width: auto;
+    font-family: 'javanese';
+}
+
+.infoheads {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.head {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profilpic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttonalign {
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.contactbutton{
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    background-color: #fbaf40;
+}
+
+.footer {
+    height: 400px;
+    width: auto;
+    background-color: black;
+}
